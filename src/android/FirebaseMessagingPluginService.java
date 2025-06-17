@@ -1,4 +1,4 @@
-package by.chemerisuk.cordova.firebase;
+package by.devbit.cordova.firebase;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -26,10 +26,10 @@ import static android.content.ContentResolver.SCHEME_ANDROID_RESOURCE;
 public class FirebaseMessagingPluginService extends FirebaseMessagingService {
     private static final String TAG = "FCMPluginService";
 
-    public static final String ACTION_FCM_MESSAGE = "by.chemerisuk.cordova.firebase.ACTION_FCM_MESSAGE";
-    public static final String EXTRA_FCM_MESSAGE = "by.chemerisuk.cordova.firebase.EXTRA_FCM_MESSAGE";
-    public static final String ACTION_FCM_TOKEN = "by.chemerisuk.cordova.firebase.ACTION_FCM_TOKEN";
-    public static final String EXTRA_FCM_TOKEN = "by.chemerisuk.cordova.firebase.EXTRA_FCM_TOKEN";
+    public static final String ACTION_FCM_MESSAGE = "by.devbit.cordova.firebase.ACTION_FCM_MESSAGE";
+    public static final String EXTRA_FCM_MESSAGE = "by.devbit.cordova.firebase.EXTRA_FCM_MESSAGE";
+    public static final String ACTION_FCM_TOKEN = "by.devbit.cordova.firebase.ACTION_FCM_TOKEN";
+    public static final String EXTRA_FCM_TOKEN = "by.devbit.cordova.firebase.EXTRA_FCM_TOKEN";
     public final static String NOTIFICATION_ICON_KEY = "com.google.firebase.messaging.default_notification_icon";
     public final static String NOTIFICATION_COLOR_KEY = "com.google.firebase.messaging.default_notification_color";
     public final static String NOTIFICATION_CHANNEL_KEY = "com.google.firebase.messaging.default_notification_channel_id";

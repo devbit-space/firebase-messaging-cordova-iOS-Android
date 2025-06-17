@@ -1,5 +1,4 @@
-
-package by.chemerisuk.cordova.firebase;
+package by.devbit.cordova.firebase;
 
 import android.Manifest;
 import android.app.NotificationManager;
@@ -27,13 +26,13 @@ import org.json.JSONObject;
 
 import java.util.Set;
 
-import by.chemerisuk.cordova.support.CordovaMethod;
-import by.chemerisuk.cordova.support.ReflectiveCordovaPlugin;
+import by.devbit.cordova.support.CordovaMethod;
+import by.devbit.cordova.support.ReflectiveCordovaPlugin;
 import me.leolin.shortcutbadger.ShortcutBadger;
 
 import static androidx.core.content.ContextCompat.getSystemService;
 import static com.google.android.gms.tasks.Tasks.await;
-import static by.chemerisuk.cordova.support.ExecutionThread.WORKER;
+import static by.devbit.cordova.support.ExecutionThread.WORKER;
 
 public class FirebaseMessagingPlugin extends ReflectiveCordovaPlugin {
     private static final String TAG = "FCMPlugin";
